@@ -61,7 +61,7 @@
          <div class="item">
             <img src="coffee.webp" alt="">
             <h4>Coffee</h4>
-            <button id="coffee" onclick="abc(this.value)" value="COFFEE"><a href="#checkout">Order</a></button>
+            <button id="coffee" onclick=" selectedItem(this.value)" value="COFFEE"><a href="#checkout">Order</a></button>
          </div>
          <div class="item">
             <img src="juice.webp" alt="">
@@ -162,7 +162,7 @@
 </footer>
 <!-- //javascript function -->
     <script>
-      function abc(data){
+      function selectedItem(data){
        document.getElementById("demo").value = data;
       }
       
